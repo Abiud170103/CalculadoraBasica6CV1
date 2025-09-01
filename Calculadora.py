@@ -9,6 +9,7 @@ print("1. Suma")
 print("2. Resta")
 print("3. Multiplicacion")
 print("4. Division")
+print("5. Módulo")
 
 def suma(a,b):
     return a + b
@@ -19,6 +20,9 @@ def resta(a,b):
 def multiplicacion(a, b):
     return a * b
 
+def modulo(a,b):
+    return a % b
+
 
 opcion = input("Selecciona una operacion:")
 match opcion:
@@ -28,3 +32,5 @@ match opcion:
         print(resta(num1,num2))
     case "3":
         print(multiplicacion(num1, num2))
+    case "5":
+        print(modulo(a,b))
