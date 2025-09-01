@@ -20,6 +20,9 @@ def resta(a,b):
 def multiplicacion(a, b):
     return a * b
 
+def division(a, b):
+    return a / b
+
 def modulo(a,b):
     return a % b
 
@@ -32,5 +35,7 @@ match opcion:
         print(resta(num1,num2))
     case "3":
         print(multiplicacion(num1, num2))
+    case "4":
+        print(division(num1, num2))
     case "5":
         print(modulo(a,b))
