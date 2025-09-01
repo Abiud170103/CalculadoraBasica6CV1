@@ -16,6 +16,9 @@ def suma(a,b):
 def resta(a,b):
     return a - b
 
+def multiplicacion(a, b):
+    return a * b
+
 
 opcion = input("Selecciona una operacion:")
 match opcion:
@@ -23,3 +26,5 @@ match opcion:
         print(suma(num1,num2))
     case "2":
         print(resta(num1,num2))
+    case "3":
+        print(multiplicacion(num1, num2))
