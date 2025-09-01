@@ -13,7 +13,13 @@ print("4. Division")
 def suma(a,b):
     return a + b
 
+def resta(a,b):
+    return a - b
+
+
 opcion = input("Selecciona una operacion:")
 match opcion:
     case "1":
         print(suma(num1,num2))
+    case "2":
+        print(resta(num1,num2))
